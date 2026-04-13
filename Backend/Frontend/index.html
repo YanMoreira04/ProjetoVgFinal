@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW STORE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1> FINALIZAR COMPRA</h1>
+    </header>
+
+    <div class="container">
+
+        
+            <h1>CASHBACK!</h1>
+
+             <a href="#" class="oferta">
+                <img src="./img_cashback.png" alt="oferta">
+            </a>
+
+            <h2>Transforme suas compras em dinheiro real. Recupere parte do que voce gasta e sinta o poder de economizar de verdade.</h2>
+
+            <form id="product-form">
+                
+                <select id="tp_cliente" required>
+                    <option value="">Selecione o tipo</option>
+                    <option value="normal">Normal</option>
+                    <option value="vip">VIP</option>
+                </select>
+
+                <input type="number" id="valor" placeholder="Preço:" required />
+                <input type="number" id="desconto" placeholder="Cupom (%):" min="0" max="100" />
+                
+                <button type="submit" id="botao">FINALIZAR</button>
+                
+            </form>
+
+            <div id="resultado"></div>
+       
+
+    </div>
+
+    <script src="script2.js"></script>
+
+</body>
+</html>

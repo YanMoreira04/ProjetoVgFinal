@@ -1,0 +1,11 @@
+mysql -u root -p
+
+CREATE DATABASE cashback_db;
+USE cashback_db;
+
+CREATE TABLE cashback(
+    id AUTO_INCREMENT PRIMARY KEY,
+    tp_cliente VARCHAR(20) NOT NULL,
+    valor DECIMAL(10,2) NOT NULL,
+    cashback DECIMAL(10,2) NOT NULL
+);
