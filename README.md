@@ -86,8 +86,8 @@ if valor_final > 500:
 - pip (gerenciador de pacotes do Python)
 
 ## Clonar o repositório:
-git clone https://github.com/YanMoreira04/ProjetoVgFinal.git
-cd Backend
+git clone https://github.com/YanMoreira04/ProjetoVgFinal
+cd Backend /
 python apii.py
 
 ## Se precisar ajuste os dados de conexão:
