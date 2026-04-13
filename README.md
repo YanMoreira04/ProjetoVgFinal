@@ -87,12 +87,10 @@ if valor_final > 500:
 
 ## Clonar o repositório:
 git clone https://github.com/YanMoreira04/ProjetoVgFinal
-
-cd Backend
+cd Backend /
 python apii.py
 
 ## Se precisar ajuste os dados de conexão:
-
 host="localhost",
 user="root",
 password="",
